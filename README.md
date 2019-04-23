@@ -110,7 +110,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ใน project directory คุณสามารถเรียกใช้คำสั่งได้ต่อไปนี้:
 
-### `npm start`
+### `npm start` or `yarn start`
 
 รันแอพ ในโหมด development.<br>
 
@@ -119,12 +119,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 หน้าเว็บจะโหลดใหม่หากคุณทำการแก้ไข.<br>
 คุณจะเห็น error ในคอนโซล.
 
-### `npm test`
+### `npm test` or `yarn test`
 
 ประกาศ test runner ในโหมด interactive watch. <br>
 ดูหัวข้อเกี่ยวกับ [running tests](https://facebook.github.io/create-react-app/docs/running-tests) สำหรับข้อมูลเพิ่มเติม.
 
-### `npm run build`
+### `npm run build` or `yarn build`
 
 สร้างแอพสำหรับ production ไปที่ `build` folder.<br>
 มันรวมกลุ่มอย่างถูกต้อง React ในโหมด production และปรับโครงสร้างให้เหมาะสมเพื่อประสิทธิภาพที่ดีที่สุด.
@@ -132,7 +132,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 build ถูกย่อขนาดและชื่อไฟล์รวมถึง hashes.
 แอปของคุณพร้อมที่จะใช้งานแล้ว!.
 
-### `npm run eject`
+### `npm run eject` or `yarn eject`
 
 **หมายเหตุ: นี่เป็นการดำเนินการทางเดียว เมื่อคุณ `eject` คุณไม่สามารถกลับไป!**
 
