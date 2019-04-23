@@ -1,6 +1,6 @@
 # Example Scripts React
 
-## Get Started
+### Get Started
 
 ### npm
 
