@@ -106,7 +106,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## คู่มือภาษาไทย
 
-## Available Scripts
+### Available Scripts
 
 ใน project directory คุณสามารถเรียกใช้คำสั่งได้ต่อไปนี้:
 
