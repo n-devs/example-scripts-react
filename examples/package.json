@@ -1,0 +1,28 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "example-scripts-react start",
+    "build": "example-scripts-react build",
+    "test": "example-scripts-react test",
+    "init": "example-scripts-react init",
+    "eject": "example-scripts-react eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "example-scripts-react": "1.0.4"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

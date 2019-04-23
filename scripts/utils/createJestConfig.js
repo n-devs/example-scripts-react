@@ -19,11 +19,11 @@ module.exports = (resolve, rootDir, isEjecting) => {
   const setupTestsFileExtension =
     (setupTestsMatches && setupTestsMatches[1]) || 'js';
   const setupTestsFile = fs.existsSync(paths.testsSetup)
-    ? `<rootDir>/src/setupTests.${setupTestsFileExtension}`
+    ? `<rootDir>/examples/src/setupTests.${setupTestsFileExtension}`
     : undefined;
 
   const config = {
-    collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', '!src/**/*.d.ts'],
+    collectCoverageFrom: ['examples/src/**/*.{js,jsx,ts,tsx}', '!src/**/*.d.ts'],
 
     setupFiles: [
       isEjecting
@@ -33,8 +33,8 @@ module.exports = (resolve, rootDir, isEjecting) => {
 
     setupFilesAfterEnv: setupTestsFile ? [setupTestsFile] : [],
     testMatch: [
-      '<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}',
-      '<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}',
+      '<rootDir>/examples/src/**/__tests__/**/*.{js,jsx,ts,tsx}',
+      '<rootDir>/examples/src/**/*.{spec,test}.{js,jsx,ts,tsx}',
     ],
     testEnvironment: 'jest-environment-jsdom-fourteen',
     transform: {
